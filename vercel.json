@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "ignoreCommand": "case \"$VERCEL_GIT_COMMIT_REF\" in dependabot/*) exit 0;; *) exit 1;; esac",
+  "builds": [
+    { "src": "landing/package.json", "use": "@vercel/static-build", "config": { "distDir": "out" } }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/landing/index.html" },
+    { "src": "/(.*)", "dest": "/landing/$1" }
+  ]
+}
