@@ -1,0 +1,30 @@
+/* Docker blue, to match the CLI's subject */
+:root {
+  --bg: #f5f8fa;
+  --bg-elevated: #ffffff;
+  --bg-sunken: #eaf0f4;
+  --fg: #0f1c24;
+  --fg-muted: #557080;
+  --border: #d3dee6;
+  --accent: #0b74a8;
+  --on-accent: #ffffff;
+  --accent-soft: #dff1fb;
+  --accent-fg: #075a84;
+  --code-bg: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0a1117;
+    --bg-elevated: #111b23;
+    --bg-sunken: #060b0f;
+    --fg: #e3edf3;
+    --fg-muted: #8aa1af;
+    --border: #22323e;
+    --accent: #38bdf8;
+    --on-accent: #062030;
+    --accent-soft: #0e2d3d;
+    --accent-fg: #7dd3fc;
+    --code-bg: #060b0f;
+  }
+}
