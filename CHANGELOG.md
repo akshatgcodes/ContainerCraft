@@ -6,6 +6,9 @@ All notable changes to **ContainerCraft** are documented here.
 
 ## [Unreleased]
 
+### ✨ Added
+- Product page (`landing/`) on Vercel
+
 ---
 
 ## [0.1.0] — 2026-10-29

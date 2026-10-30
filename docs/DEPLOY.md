@@ -1,5 +1,9 @@
 # Deploy
 
+## Website
+
+The product page at **https://containercraft.akshatgcodes.in** is `landing/` (a Next.js static export) on Vercel, connected to this repo. ContainerCraft itself is a CLI and runs on your machine; the rest of this page is about that.
+
 ContainerCraft runs **on the Docker host it manages**; it isn't a hosted web app.
 
 ## As a service (Linux, systemd)

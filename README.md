@@ -16,6 +16,9 @@
 </p>
 
 <p align="center">
+  <a href="https://containercraft.akshatgcodes.in">
+    <img src="https://img.shields.io/badge/website-0db7ed-0db7ed?style=flat-square" alt="Website">
+  </a>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Docker_SDK-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker SDK">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
@@ -44,6 +47,9 @@ Monitoring every 3s · CPU > 50% or memory > 90% for 2 checks · auto-restart ON
 ```
 
 That's real output against a container running an infinite loop. A naive monitor would restart it forever.
+
+> **Website →** [containercraft.akshatgcodes.in](https://containercraft.akshatgcodes.in)
+> It's a CLI, so the site is a product page with install steps.
 
 ---
 
